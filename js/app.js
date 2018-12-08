@@ -4,7 +4,7 @@ $(document).ready(function(){
     // Buscando API do ajax para usar os dados do arquivo .json para preencher os campos e serem editaveis
 
     $.ajax({
-        url: "http://localhost/test-hubert-front-end/condominios.json",
+        url: "http://localhost/teste-hubert-front-end/condominios.json",
         type: 'GET',
         dataType : 'json',
         contentType: "application/json; charset=utf-8",
