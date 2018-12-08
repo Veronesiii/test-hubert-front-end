@@ -1,0 +1,147 @@
+body{
+    background-color: #f2f2f2;
+}
+.navbar{
+    border:none;
+    border-radius: 0px;
+}
+
+.navbar-brand{
+    padding: 10px 15px;
+}
+
+.navbar-brand img{
+    display: block;
+    width: 155px;
+    padding: 0;
+}
+.navbar-inverse{
+    background-color:#3871bc;
+}
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    border-bottom: 6px solid #21cce6;
+    background: none !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+    background-color:#3871bc;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+}
+
+.dropdown.edificio{
+    padding: 12px 30px;
+}
+
+
+.navbar-inverse .navbar-nav>li.edificio>a.dropdown-toggle {
+    padding: 10px;
+}
+
+.foto-perfil{
+    width: 50px;
+}
+
+.navbar-inverse .navbar-nav>li>a.dropdown-toggle{
+    background-color: #006595;
+    margin:0 -15px 0 0;
+    padding: 7px 30px 7px 7px;
+}
+
+a#ap.dropdown-toggle{
+    background-color: #006595;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 100%;
+}
+a#ap.dropdown-toggle .caret{
+    float: right;
+    margin: 8px 0;
+}
+
+.navbar-nav>li.edificio>.dropdown-menu{
+    width: 384px;
+    right: 30px;
+    top: 54px;
+    background-color: #006595;
+}
+.navbar-nav>li.edificio>.dropdown-menu a:focus, 
+.navbar-nav>li.edificio>.dropdown-menu a:hover{
+    color: #006595;
+}
+.navbar-nav>li.edificio>.dropdown-menu a{
+    color: #fff;
+}
+
+.breadcrumb{
+    margin-top:-20px;
+    background-color: #e6e9ed;
+}
+
+.breadcrumb p{
+    font-size:12px;
+    margin:0;
+}
+
+.breadcrumb p>span{
+    color:#006595;
+}
+
+.specs{
+    text-decoration: underline;
+    color: gray;
+    font-size:16px;
+}
+
+.osp>p{
+    display:inline-block;
+    margin-right: 15px;
+}
+.osp2>p{
+    display:inline-block;
+    margin-right: 15px;
+}
+
+.nav-tabs>li>a {
+    border-radius:0px;
+    padding: 8px 50px 8px 50px;
+}
+
+.nav-tabs li a{
+    background-color:#eaeaea;
+    color:gray;
+}
+
+.tab-content{
+    background-color: #fff;
+    overflow: hidden;
+    padding: 30px;
+}
+
+hr {
+    border-top: 8px solid #eee;
+}
+
+select#antenas.form-control{
+    /* width: 45%; */
+}
+
+button.btn.btn-success{
+    float:right;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+button.btn.btn-default{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+/* #3871bc */
